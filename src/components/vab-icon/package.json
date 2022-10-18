@@ -1,0 +1,73 @@
+{
+  "_from": "vab-icon@^0.0.1",
+  "_id": "vab-icon@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-mQwkSNzEgWpqu15eQJJgD/9B9vhBWgaNXeVVxdXCNCNkqk0EEbDosJICWeNeOnh6JunaX1yI++kqmYI4W/YPng==",
+  "_location": "/vab-icon",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "vab-icon@^0.0.1",
+    "name": "vab-icon",
+    "escapedName": "vab-icon",
+    "rawSpec": "^0.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^0.0.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vab-icon/-/vab-icon-0.0.1.tgz",
+  "_shasum": "44453eb14cb83631327e80c9bc2a0f6d04e306ff",
+  "_spec": "vab-icon@^0.0.1",
+  "_where": "D:\\project\\MerckProjects\\China\\ResearchAndAppliedSolutions\\eMPower\\SystemManagement\\template\\vue-admin-beautiful-template",
+  "author": {
+    "name": "chuzhixin",
+    "email": "1204505056@qq.com"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "bugs": {
+    "url": "https://github.com/chuzhixin/zx-icon/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "core-js": "^3.7.0",
+    "vue": "^2.6.12"
+  },
+  "deprecated": false,
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.8",
+    "@vue/cli-plugin-eslint": "^4.5.8",
+    "@vue/cli-service": "^4.5.8",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.12.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^7.1.0",
+    "prettier": "^2.1.2",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "homepage": "http://chu1204505056.gitee.io/vue-admin-beautiful",
+  "main": "dist/vab-icon.umd.min.js",
+  "name": "vab-icon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuzhixin/zx-icon.git"
+  },
+  "scripts": {
+    "build": "vue-cli-service build --target lib --inline-vue",
+    "build:lib": "vue-cli-service build --target lib src/components/export.js",
+    "lint": "vue-cli-service lint",
+    "push": "start ./deploy.sh",
+    "serve": "vue-cli-service serve",
+    "update": "ncu -u&&cnpm i"
+  },
+  "version": "0.0.1"
+}
